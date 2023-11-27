@@ -1,7 +1,6 @@
-package org.example;
+package Domain;
 
 import java.util.ArrayList;
-import java.util.UUID;
 
 public class Building implements IBuildingManagementSystem {
     String name;
