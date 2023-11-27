@@ -1,4 +1,4 @@
-package guipresentation.sprint_javafx;
+package Presentation;
 
 import javafx.fxml.FXML;
 import javafx.scene.control.Label;

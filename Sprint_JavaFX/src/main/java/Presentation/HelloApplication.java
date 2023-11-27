@@ -1,4 +1,4 @@
-package guipresentation.sprint_javafx;
+package Presentation;
 
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;

@@ -6,6 +6,6 @@ module guipresentation.sprint_javafx {
     requires com.dlsc.formsfx;
     requires org.kordamp.bootstrapfx.core;
 
-    opens guipresentation.sprint_javafx to javafx.fxml;
-    exports guipresentation.sprint_javafx;
+    opens Presentation to javafx.fxml;
+    exports Presentation;
 }
