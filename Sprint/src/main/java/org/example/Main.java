@@ -34,5 +34,7 @@ public class Main {
         buildingList1.removeBuilding(building1);
 
         buildingList1.printBuildingList();
+
+        IBuildingManagementSystem bms = new Building("bms",new ArrayList<>(), new ArrayList<>());
     }
 }
