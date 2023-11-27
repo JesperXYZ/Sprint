@@ -1,4 +1,4 @@
-package Domain.sprint;
+package Domain.sprint_javafx;
 
 public class Sensor {
     String name;
