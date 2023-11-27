@@ -9,10 +9,6 @@ public class Actuator {
         this.value=value;
         this.type=type;
     }
-    public void printActuators(){
-
-    }
-
     public double getValue() {
         return value;
     }

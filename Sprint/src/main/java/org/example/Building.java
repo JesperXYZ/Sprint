@@ -24,4 +24,10 @@ public class Building {
     public void removeActuator(Actuator actuator){
         this.actuatorList.remove(actuator);
     }
+    public ArrayList getSensorList(){
+        return sensorList;
+    }
+    public ArrayList getActuatorList(){
+        return actuatorList;
+    }
 }

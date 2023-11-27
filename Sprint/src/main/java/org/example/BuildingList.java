@@ -5,12 +5,18 @@ import java.util.ArrayList;
 public class BuildingList {
     ArrayList buildingList = new ArrayList<Building>();
     BuildingList(ArrayList buildingList){
-        buildingList=this.buildingList;
+        this.buildingList=buildingList;
     }
     public void addBuilding(Building building){
         this.buildingList.add(building);
     }
     public void removeBuilding(Building building){
+        for (int i = 0; i<building.actuatorList.size(); i++) {
+            building.actuatorList.remove(i);
+        }
+        for (int i = 0; i<building.sensorList.size(); i++) {
+            building.sensorList.remove(i);
+        }
         this.buildingList.remove(building);
     }
     public void printBuildingList(){
@@ -35,5 +41,9 @@ public class BuildingList {
             }
             System.out.println("");
         }
+        System.out.println("");
+    }
+    public ArrayList getBuildingList(){
+    return buildingList;
     }
 }

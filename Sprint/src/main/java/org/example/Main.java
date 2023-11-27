@@ -26,5 +26,13 @@ public class Main {
         buildingList1.addBuilding(building2);
 
         buildingList1.printBuildingList();
+
+        building1.removeActuator(actuator1);
+
+        buildingList1.printBuildingList();
+
+        buildingList1.removeBuilding(building1);
+
+        buildingList1.printBuildingList();
     }
 }

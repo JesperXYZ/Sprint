@@ -9,9 +9,6 @@ public class Sensor {
         this.value=value;
         this.type=type;
     }
-    public void printSensors(){
-
-    }
     public double getValue() {
         return value;
     }
