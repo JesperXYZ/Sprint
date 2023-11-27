@@ -1,4 +1,4 @@
-package Domain;
+package Domain.sprint;
 
 import java.util.ArrayList;
 

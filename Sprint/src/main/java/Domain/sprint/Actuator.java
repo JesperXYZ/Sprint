@@ -1,4 +1,4 @@
-package Domain;
+package Domain.sprint;
 
 public class Actuator {
     String name;
